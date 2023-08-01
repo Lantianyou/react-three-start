@@ -1,5 +1,5 @@
-import { ThreeElements, useFrame } from "@react-three/fiber";
-import { useRef, useState } from "react";
+import { ThreeElements } from "@react-three/fiber";
+import { useRef } from "react";
 import { type Mesh } from "three";
 
 import vertexShader from './shaders/vertex.glsl'
